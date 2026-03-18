@@ -1,0 +1,15 @@
+services:
+
+  the-vault:
+    build: ./challenge1-sqli
+    container_name: syr-ctf-vault
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
+  report-engine:
+    build: ./challenge2-ssti
+    container_name: syr-ctf-report-engine
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
