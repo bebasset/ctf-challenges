@@ -2,7 +2,7 @@
 **Category:** Web
 **Vulnerability:** SQL Injection
 **Difficulty:** Easy / Medium
-**Flag:** `SYR{sql_inj3ct10n_unl0cks_the_vault}`
+**Flag:** `cusectf{sql_inj3ct10n_unl0cks_the_vault}`
 
 ---
 
@@ -55,7 +55,7 @@ The `--` comments out the password check, logging you in as `admin`.
 After logging in as admin, the dashboard displays all secrets from the `secrets` table, including the admin's secret which contains the flag:
 
 ```
-SYR{sql_inj3ct10n_unl0cks_the_vault}
+cusectf{sql_inj3ct10n_unl0cks_the_vault}
 ```
 
 ### Alternative — UNION-based extraction (for extra credit)

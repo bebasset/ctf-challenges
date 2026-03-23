@@ -2,7 +2,7 @@
 **Category:** Web
 **Vulnerability:** Server-Side Template Injection (SSTI) — Jinja2
 **Difficulty:** Medium
-**Flag:** `SYR{j1nj4_t3mpl4t3s_4r3_n0t_a_sandbox}`
+**Flag:** `cusectf{j1nj4_t3mpl4t3s_4r3_n0t_a_sandbox}`
 
 ---
 
@@ -76,7 +76,7 @@ http://localhost:5001/report?name={{lipsum.__globals__['os'].popen('cat%20/tmp/f
 ### Step 4 — Collect the flag
 
 ```
-SYR{j1nj4_t3mpl4t3s_4r3_n0t_a_sandbox}
+cusectf{j1nj4_t3mpl4t3s_4r3_n0t_a_sandbox}
 ```
 
 ---

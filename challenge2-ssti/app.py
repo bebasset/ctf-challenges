@@ -8,7 +8,7 @@ from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 
-FLAG = "SYR{j1nj4_t3mpl4t3s_4r3_n0t_a_sandbox}"
+FLAG = "cusectf{j1nj4_t3mpl4t3s_4r3_n0t_a_sandbox}"
 
 FLAG_PATH = "/tmp/flag.txt"
 with open(FLAG_PATH, "w") as f:

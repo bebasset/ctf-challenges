@@ -10,7 +10,7 @@ import sqlite3
 app = Flask(__name__)
 DATABASE = "/tmp/vault.db"
 
-FLAG = "SYR{sql_inj3ct10n_unl0cks_the_vault}"
+FLAG = "cusectf{sql_inj3ct10n_unl0cks_the_vault}"
 
 HINTS = [
     "The login form sends your input directly to a database query. What happens when you add unusual characters?",
